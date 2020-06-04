@@ -1,0 +1,236 @@
+Package: luci-app-ddns
+Version: 2.4.9-7
+Depends: libc, luci-mod-admin-full, ddns-scripts
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-app-ddns
+License: Apache-2.0
+Section: luci
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 19205
+Filename: luci-app-ddns_2.4.9-7_all.ipk
+Size: 20071
+SHA256sum: 7e24029b16f23ccf568a0b3a55ad76f258c01e93cb378959b9c9a104fb052cd4
+Description:  LuCI Support for Dynamic DNS Client (ddns-scripts)
+
+Package: luci-app-firewall
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+SourceName: luci-app-firewall
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 10095
+Filename: luci-app-firewall_git-20.141.34051-f750b5f-1_all.ipk
+Size: 10846
+SHA256sum: a01eb4d970a15d57594f5d94a070f9dd6da9df79bdbe92805e2d2c8dca6189b3
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-samba
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, samba36-server
+Source: feeds/luci/applications/luci-app-samba
+SourceName: luci-app-samba
+Section: luci
+Architecture: all
+Installed-Size: 1334
+Filename: luci-app-samba_git-20.141.34051-f750b5f-1_all.ipk
+Size: 2082
+SHA256sum: fb8b9b0119ad82a8a68faaf5b6acc3ca00c5761e257e0c8ca94c7a9266b231ae
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-app-upnp
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, miniupnpd
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-app-upnp
+Section: luci
+Architecture: all
+Installed-Size: 3437
+Filename: luci-app-upnp_git-20.141.34051-f750b5f-1_all.ipk
+Size: 4250
+SHA256sum: 74cf56795cedfa2b013942e2a27856da4566b2f66e8a522aaf1beda795a7c5a6
+Description:  Universal Plug & Play configuration module
+
+Package: luci-base
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+Source: feeds/luci/modules/luci-base
+SourceName: luci-base
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 108962
+Filename: luci-base_git-20.141.34051-f750b5f-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 110007
+SHA256sum: 13673a542668c70d1e4ee832acaed0ec2dccc33ed33edc6256d6bdecda34d9d2
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-zh-cn
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-base
+SourceName: luci-i18n-base-zh-cn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 29389
+Filename: luci-i18n-base-zh-cn_git-20.141.34051-f750b5f-1_all.ipk
+Size: 30265
+SHA256sum: 2bd71f62434abc198bc9a6af9ceaaed16508f88e54ae001776251489d5f203be
+Description:  Translation for luci-base - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-ddns-zh-cn
+Version: 2.4.9-7
+Depends: libc, luci-app-ddns
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-i18n-ddns-zh-cn
+License: Apache-2.0
+Section: luci
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 6765
+Filename: luci-i18n-ddns-zh-cn_2.4.9-7_all.ipk
+Size: 7672
+SHA256sum: b63587b4fc3ed3fab508c3fd3669b534cebcdd900d9df84dbf093c5fcaba742c
+Description:  Translation for luci-app-ddns - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+SourceName: luci-i18n-firewall-zh-cn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4640
+Filename: luci-i18n-firewall-zh-cn_git-20.141.34051-f750b5f-1_all.ipk
+Size: 5469
+SHA256sum: f958a2f6cb2d0426373477cb3f5a0896390e7a2c3d03801904190756cd84d819
+Description:  Translation for luci-app-firewall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-samba-zh-cn
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, luci-app-samba
+Source: feeds/luci/applications/luci-app-samba
+SourceName: luci-i18n-samba-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1213
+Filename: luci-i18n-samba-zh-cn_git-20.141.34051-f750b5f-1_all.ipk
+Size: 2047
+SHA256sum: bc7020763483aa5627208ed5c4b49bc5d82552942240ce1d1cce0190b5381c54
+Description:  Translation for luci-app-samba - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-upnp-zh-cn
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, luci-app-upnp
+Source: feeds/luci/applications/luci-app-upnp
+SourceName: luci-i18n-upnp-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 1606
+Filename: luci-i18n-upnp-zh-cn_git-20.141.34051-f750b5f-1_all.ipk
+Size: 2454
+SHA256sum: 1ce4fd6f1494a4acafada982264df418fa1b305f9025d850b3c0edc32261c5c4
+Description:  Translation for luci-app-upnp - 简体中文 (Simplified Chinese)
+
+Package: luci-lib-ip
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, liblua5.1.5, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+SourceName: luci-lib-ip
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8966
+Filename: luci-lib-ip_git-20.141.34051-f750b5f-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9676
+SHA256sum: b599f65451ba2e50941c21b47531f40420fb65b74b2722ed96f6cf695b20c4bd
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-jsonc
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, liblua5.1.5, libjson-c
+Source: feeds/luci/libs/luci-lib-jsonc
+SourceName: luci-lib-jsonc
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3370
+Filename: luci-lib-jsonc_git-20.141.34051-f750b5f-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4072
+SHA256sum: 2c00f5388219029653a218f9a8a2f0c44df3100a7dc7741c3750f1a038e32529
+Description:  Lua binding for JSON-C
+
+Package: luci-lib-nixio
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, liblua5.1.5
+Source: feeds/luci/libs/luci-lib-nixio
+SourceName: luci-lib-nixio
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29016
+Filename: luci-lib-nixio_git-20.141.34051-f750b5f-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 29593
+SHA256sum: 3a88b80f2b365f6bc093d51a9b3593fcbfbc103e0bf6745803b24ac10eb74c19
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+SourceName: luci-mod-admin-full
+License: Apache-2.0
+Section: luci
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 74545
+Filename: luci-mod-admin-full_git-20.141.34051-f750b5f-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 75470
+SHA256sum: 2456b41d361f353961db366c707dd7fb4ea4d2385957336399963d3b6c0cffc0
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ppp
+Version: git-20.141.34051-f750b5f-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+SourceName: luci-proto-ppp
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 2924
+Filename: luci-proto-ppp_git-20.141.34051-f750b5f-1_all.ipk
+Size: 3653
+SHA256sum: e4ef2ba4320a81cd12ba64adbe16fa14995150463371f39caf1b5be4fc6504f9
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci
+Version: git-20.141.34051-f750b5f-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, rpcd-mod-rrdns
+Source: feeds/luci/collections/luci
+SourceName: luci
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-20.141.34051-f750b5f-1_all.ipk
+Size: 895
+SHA256sum: a698803d6b0acef6fcd5b178dc587ac7dc682f79f2a1f4083632dc5b04a40f23
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20170601, libubus20191227
+Source: feeds/luci/libs/rpcd-mod-rrdns
+SourceName: rpcd-mod-rrdns
+License: Apache-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3488
+Filename: rpcd-mod-rrdns_20170710_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4316
+SHA256sum: 1ecdfd7aba514244a988ec8b82bbd6f3d6f09e9219123da6fdb13dde3eb29674
+Description:  Provides rapid mass reverse DNS lookup functionality.
+
